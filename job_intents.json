@@ -1,0 +1,129 @@
+{
+    "intents": [
+      {"tag": "greeting",
+       "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Hi"],
+       "responses": ["Hi stranger", "Yes, how can I help", "Hey Whatsup", "Hey dude", "You again"]
+      },
+
+      {"tag": "goodbye",
+       "patterns": ["Bye", "See you later", "Goodbye", " okay", "Bye Bye"],
+       "responses": ["See you!", "Have a nice day", "Sure Bye", "Yup", "Peace out", "Sure dude"]
+      },
+
+      {"tag": "thanks",
+       "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+       "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+      },
+    
+      {"tag": "noanswer",
+       "patterns": [],
+       "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+       },
+
+       {"tag": "name",
+        "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Tell me about yourself", "You are"],
+        "responses": ["I am Yogi & it's my pleasure to help you  ", "My name is Yogi & it's my pleasure to help you","Yogi is my name & it's my pleasure to help you"]
+        },
+
+        {"tag": "options",
+         "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+         "responses": [ "I can provide you with some Yogic Techniques that can enhance your overall Physical, Mental, and Emotional wellbeing & also helps to cure Health Diseases."]
+        },
+
+       {"tag": "direct Contact with therapist",
+        "patterns": ["doctor","therapist","contact"],
+        "responses": ["Mr.Nikhil <br> (Yoga Instructor & Yoga Therapist <br> Contact: 87439286** <br> Hey! You can also ask to Chatbot regarding you query."]
+        },
+
+        {"tag": "Diabetes",
+        "patterns": ["Diabetes", "sugar"],
+        "responses": [" Ok, no Worry! <br> I am Providing you Some Youtube Videos So, You can now easily do this Yoga Poses <br> 1. Vakrasana <br> <a href= 'https://youtu.be/z0XHmCRIdyE'> https://youtu.be/z0XHmCRIdyE</a> <br> 2. Nadi-Shodhan <br> <a href='https://youtu.be/TSvxys_Ywq0'>https://youtu.be/TSvxys_Ywq0</a>"]
+        },
+
+        {"tag": "Depression/ Anxiety/ Stress",
+        "patterns": ["Depression", "Anxiety", "Stress"],
+        "responses": ["  Ok, no Worry! <br> I am Providing you Some Youtube Videos So, You can now easily do this Yoga Poses <br> 1. Meditation (Dhyana) <br> <a href= 'https://youtu.be/-73jLhEosSQ'> https://youtu.be/-73jLhEosSQ</a> <br> 2. Nadi-Shodhan <br> <a href='https://youtu.be/TSvxys_Ywq0'>https://youtu.be/TSvxys_Ywq0</a>"]
+        },
+
+        {
+          "tag": "insomnia",
+          "patterns": ["insomnia", "sleep", "sleep disorder"],
+          "responses": ["  Ok, no Worry! <br> I am Providing you Some Youtube Videos So, You can now easily do this Yoga Poses <br> 1. Vakrasana <br> <a href= 'https://youtu.be/z0XHmCRIdyE'> https://youtu.be/z0XHmCRIdyE</a> <br> 2. Nadi-Shodhan <br> <a href='https://youtu.be/TSvxys_Ywq0'>https://youtu.be/TSvxys_Ywq0</a>"]
+        },
+        
+        {"tag": "Cervical Pain/ Neck Pain",
+        "patterns": ["cervical pain", "neck pain", "neck", "cervical"],
+        "responses": [" Ok, no Worry! <br> I am Providing you Some Youtube Videos So, You can now easily do this Yoga Poses  <br> 1. Vakrasana <br> <a href= 'https://youtu.be/z0XHmCRIdyE'> https://youtu.be/z0XHmCRIdyE</a> <br>  2. Bhujangasana <br> <a href='https://youtu.be/99RR2vRvgi8'>https://youtu.be/99RR2vRvgi8</a>"]
+        },
+
+        {"tag": "Cold/ Cough",
+        "patterns": ["cold","cough","cold and cough"],
+        "responses": [" Ok, no Worry! <br> I am Providing you Some Youtube Videos So, You can now easily do this Yoga Poses  <br> 1. Vakrasana <br> <a href= 'https://youtu.be/z0XHmCRIdyE'> https://youtu.be/z0XHmCRIdyE</a> <br> 2. Nadi-Shodhan <br> <a href='https://youtu.be/TSvxys_Ywq0'>https://youtu.be/TSvxys_Ywq0</a>"]
+        },
+
+        {"tag": "Back Pain",
+        "patterns": ["back pain", "back", "lower back pain", "lower back"],
+        "responses": [" Ok, no Worry! <br> I am Providing you Some Youtube Videos So, You can now easily do this Yoga Poses  <br> 1. Bhujangasana <br> <a href='https://youtu.be/99RR2vRvgi8'>https://youtu.be/99RR2vRvgi8</a> <br> 2. Ustrasana <br> <a href='https://youtu.be/JDzDfraiR7U'>https://youtu.be/JDzDfraiR7U</a>"]
+          },
+
+        {"tag": "Knee Pain",
+        "patterns": ["knee pain","knee"],
+        "responses": [" Ok, no Worry! <br> I am Providing you Some Youtube Videos So, You can now easily do this Yoga Poses  <br> 1. Vakrasana <br> <a href= 'https://youtu.be/z0XHmCRIdyE'> https://youtu.be/z0XHmCRIdyE</a> <br> 2. Nadi-Shodhan <br> <a href='https://youtu.be/TSvxys_Ywq0'>https://youtu.be/TSvxys_Ywq0</a>"]
+        },
+
+        {"tag": "Breathing Problems",
+        "patterns": ["Breathing Problems", "breathing"],
+        "responses": [" Ok, no Worry! <br> I am Providing you Some Youtube Videos So, You can now easily do this Yoga Poses  <br> 1. Ardha Chakrasana <br> <a href= 'https://youtu.be/i_ix1f99Vn4'> https://youtu.be/i_ix1f99Vn4</a> <br> 2. Nadi-Shodhan <br> <a href='https://youtu.be/TSvxys_Ywq0'>https://youtu.be/TSvxys_Ywq0</a>"]
+        },
+
+        {"tag": "Digestion",
+        "patterns": ["Digestion", "digestion problem"],
+        "responses": [" Ok, no Worry! <br> I am Providing you Some Youtube Videos So, You can now easily do this Yoga Poses <br> 1. Vakrasana <br> <a href= 'https://youtu.be/z0XHmCRIdyE'> https://youtu.be/z0XHmCRIdyE</a> <br> 2. Nadi-Shodhan <br> <a href='https://youtu.be/TSvxys_Ywq0'>https://youtu.be/TSvxys_Ywq0</a>"]
+        },
+
+        {"tag": "Covid-19",
+        "patterns": ["Covid-19", "corona"],
+        "responses": [" Ok, no Worry! <br> I am Providing you Some Youtube Videos So, You can now easily do this Yoga Poses <br> 1. Nadi Shodhan <br> <a href= 'https://youtu.be/TSvxys_Ywq0'> https://youtu.be/TSvxys_Ywq0</a> <br> 2. Bhujangasana <br> <a href='https://youtu.be/99RR2vRvgi8'>https://youtu.be/99RR2vRvgi8</a> <br> 3. Padahastasana <br> <a href='https://youtu.be/_oM_OGcaSRQ'>https://youtu.be/_oM_OGcaSRQ</a> <br> 4. Nadi Shodhan <br> <a href= 'https://youtu.be/TSvxys_Ywq0'> https://youtu.be/TSvxys_Ywq0</a> <br>"]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {"tag": "Yoga_&_Meditation",
+         "patterns": ["Yoga & Meditation Facts", "Yoga Facts", "Give me some facts about Meditation", "Give me some facts about Meditation", "Asanas Facts", "Yoga interesting facts", "Yoga & Meditation facts", "Yoga & Meditation interesting facts", "Tell me something interesting"],
+         "responses": [
+           "South Africa is now the only country in the world to have hosted the Soccer, Cricket and Rugby World Cup!",
+           "Table Mountain in Cape Town is believed to be one of the oldest mountains in the world and one of the planet’s 12 main energy centres, radiating magnetic, electric or spiritual energy.",
+           "The Cape Floral Kingdom is one of the world’s six floral kingdoms – and the only one which is wholly contained within a single country.",
+           "Some countries have deserts; some have subtropical forests, right? South Africa has: deserts, wetlands, grasslands, bush, subtropical forests, mountains and escarpments.",
+           "South Africa’s drinking water is rated 3rd best in the world for being safe and ready to drink.",
+           "Water is not all there is to drink in this thirsty country! South Africa’s Cape Winelands have around 560 wineries and 4 400 primary producers. Included in the Cape Winelands region is Route 62, considered the longest wine route in the world. That alone is good reason to visit South Africa if you haven’t yet been!",
+           "What about beer? South African brewery SABMiller ranks – by volume – as the largest brewing company in the world. Saffers love their beer…but the real reason the brewery is so big? SABMiller also supplies up to 50% of China’s beer.",
+           "South Africa is the only country in the entire world that has voluntarily abandoned its nuclear weapons programme.",
+           "The world’s largest themed resort hotel in the world – The Palace of the Lost City – is found in South Africa. Surrounding the Palace is a 25 hectare manmade botanical jungle with almost 2 million plants, trees and shrubs.",
+           "South Africa is extremely rich in mining and minerals and considered the world’s leader with nearly 90% of all the platinum metals on earth and around 41% of all the world’s Gold!",
+           "South Africa is home to the oldest meteor scar in the world – the Vredefort Dome in a town called Parys. The site is a UNESCO World Heritage Site.",
+           "The South African Rovos Rail is considered the most luxurious train in the world.",
+           "South Africa is home to the highest commercial bungi jump in the world at 710 feet.",
+           "General Motors South Africa is the only place outside of the USA to build the Hummer H3!",
+           "Despite the country’s status as a democratic republic, the Province of KwaZulu-Natal has a monarchy, specially provided for by the Constitution. Goodwill Zwelithini kaBhekuzulu is the King of the Zulu Nation, has 27 kids and 6 wives and lives, literally, like a King!",
+           "There are more than 2000 shipwrecks off the South African coast, most dating back at least 500 years.",
+           "The oldest remains of modern humans were found in South Africa and are well over 160,000 years old.",
+           "The Karoo region in the Western Cape is home to some of the best fossils of early dinosaurs. In fact, it is estimated that some 80% of the mammalian fossils found to date were found in the Karoo.",
+           "SA has three capital cities: Pretoria is the Executive Capital, Cape Town the Legislative Capital and Bloemfontein the judicial Capital.",
+           "Can you think of any other place in the world where two Nobel Peace Prize winners lived on the same street? Both Nelson Mandela and Archbishop Desmond Tutu had houses on Vilakazi Street in Soweto"
+         ]
+        }
+    ]
+  }
+  
